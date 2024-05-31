@@ -1,0 +1,27 @@
+footer{
+    padding: 100px 20px;
+}
+footer .grid-container{
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr max-content;
+    gap: 100px;
+}
+footer #at-symbol{
+    font-size: 250pt;
+}
+footer h3{
+    margin-top: 80px;
+    font-size: 2.5rem;
+}
+footer a{
+    margin-top: 5px;
+    display: inline-block;
+    color: var(--text-color);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
