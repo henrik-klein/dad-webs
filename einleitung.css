@@ -1,0 +1,32 @@
+.einleitung-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+    background-color: var(--forth-color);
+}
+.einleitung-container p{
+    width: 800px;
+    max-width: 100%;
+    font-size: 1.5re;
+}
+.event-img-container{
+    width: 600px;
+    max-width: 100%;
+}
+
+@media(max-width: 850px){
+    .einleitung-container{
+        padding: 20px;
+        gap: 20px;
+    }
+    .event-img-container{
+        width: 50%;
+    }
+    .einleitung-container p{
+        width: 50%;
+    }
+}
+
