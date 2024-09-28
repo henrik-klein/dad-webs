@@ -25,11 +25,11 @@ h2 {
     font-size: 2.5rem;
     color: var(--primary-color);
 }
-span{
-    color: var(--primary-color);
-}
 .st{
     color: var(--secondary-color);
+}
+span{
+    color: var(--primary-color);
 }
 p {
     color: var(--text-color);
