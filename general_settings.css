@@ -28,6 +28,9 @@ h2 {
 span{
     color: var(--primary-color);
 }
+.st{
+    color: var(--secondary-color);
+}
 p {
     color: var(--text-color);
 }
